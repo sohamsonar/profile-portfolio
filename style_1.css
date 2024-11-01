@@ -52,7 +52,7 @@ ul li a
 /* header */
 @font-face {
     font-family: 'veldman';
-    src: url('Fonts/veldman.otf') format('opentype');
+    src: url('veldman.otf') format('opentype');
 }
 
 #webcoderskull{
