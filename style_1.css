@@ -21,7 +21,7 @@ nav
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-}
+}	
 h2	
 {
 	color:#fff;
@@ -52,7 +52,7 @@ ul li a
 /* header */
 @font-face {
     font-family: 'veldman';
-    src: url('veldman.otf') format('opentype');
+    src: url('Fonts/veldman.otf') format('opentype');
 }
 
 #webcoderskull{
@@ -77,7 +77,7 @@ header pre
 }
 .intro
 {
-	padding:170px;
+	padding:15%;
 	display:flex;
 	justify-content:center;
 	gap:20px;
@@ -245,7 +245,7 @@ h2
 		color:#fff;
 		text-decoration:none;
 		font-family:"Poppins";
-		font-size:1rem;
+		font-size:0.8rem;
 		gap:20px;
 	}
 	.intro
@@ -759,7 +759,7 @@ main
 .btn2 .twitter {
   margin-top: .25em;
   margin-left: .1em;
-  fill: #03A9F4;
+  fill: red;
 }
 
 .btn2 .tooltiptext2 {
@@ -800,7 +800,7 @@ main
 }
 
 .btn2:hover {
-  background-color: #03A9F4;
+  background-color: red;
 }
 
 .btn2:hover .twitter {
@@ -874,10 +874,10 @@ main
   transition: .4s all;
 }
 
-.btn4 .twitter {
+.btn4 .whatsapp {
   margin-top: .25em;
   margin-left: .1em;
-  fill: #03A9F4;
+  fill: green;
 }
 
 .btn4 .tooltiptext4 {
@@ -918,10 +918,10 @@ main
 }
 
 .btn4:hover {
-  background-color: #03A9F4;
+  background-color: green;
 }
 
-.btn4:hover .twitter {
+.btn4:hover .whatsapp {
   fill: white;
 }
 @media(max-width:770px)
